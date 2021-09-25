@@ -36,7 +36,7 @@ let questions = [
             "Robert Trivers",
             "Daniel Kahneman",
             "Philip Zimbardo",
-            "robert Sternberg"
+            "Robert Sternberg"
         ]
     },
     {
@@ -80,13 +80,13 @@ let questions = [
         ]
     },
     {
-        question: "Suppose you're standing at a place on earth such that when you walk 1km South, 1km West and then 1km North, you end up at the same position. How many such places are there on earth?",
-        answer : "Infinite",
+        question: "Which is the deepest place on Earth?",
+        answer : "Mariana Trench",
         options: [
-            "1",
-            "2",
-            "Infinite",
-            "7"
+            "Tonga Trench",
+            "Kermadec Trench",
+            "Tonga Trench",
+            "Mariana Trench"
         ]
     },
     {
@@ -94,7 +94,7 @@ let questions = [
         answer : "Contact Light.",
         options: [
             "Contact Light.",
-            "One Small Step for a Man, One Giant leap for mankind.",
+            "One Small Step for a Man...",
             "Houston, we've had a problem here.",
             "Elementary, my dear Collins."
         ]

@@ -5,6 +5,14 @@
     box-sizing: border-box;
     user-select: none;
 }
+.container > p{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
 button{
     outline: none;
 }
@@ -114,12 +122,16 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     border-radius: 100vh;
     border: 2px solid #FFD700;
     font-size: 20px;
+    overflow-x: scroll;
+    overflow-y: scroll;
 }
 .container .game .questionnaire button{
-    height: 50px;
+    min-height: 50px;
+    max-height: auto;
     background: blue;
     font-size: 30px;
     border-radius: 100vh;
@@ -233,4 +245,112 @@ button{
 }
 .container .prize_info .play_again:hover{ 
 background: #2980b9;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+    .container .prize_info p{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container .game .questionnaire{
+        left: 45%;
+    }
+    .container .prize_info p{
+        font-size: 30px;
+    }
+    .container .game .questionnaire h1{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .container .game .next_btn{
+        left: 70%;
+    }
+}
+@media screen and (max-width: 740px) {
+    .container .game .next_btn{
+        left: 60%;
+    }
+}
+@media screen and (max-width: 790px) {
+    .container .game .questionnaire{
+        left: 43%;
+    }
+    .container .game .questionnaire button{
+        font-size: 20px;
+    }
+    .container .prize_info p{
+        line-height: 30px;
+    }
+    .container .game .questionnaire{
+        grid-template-rows: 90px repeat(2, 60px);
+    }
+    .timer{
+        top: 43%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .container .game .questionnaire{
+        left: 42%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+   
+    .container .game .questionnaire button{
+        font-size: 18px;
+    }
+    
+}
+@media screen and (max-width: 550px) {
+    .container .game .next_btn{
+        left: 50%;
+    }
+    
+}
+@media screen and (max-width: 480px) {
+    .container .logo_main{
+        left: 40%;
+    }
+    .container .game .questionnaire{
+        left: 50%;
+        width: 100%;
+    }
+    .container .game .questionnaire button{
+        font-size: 18px;
+    }
+    .container .game .money_tier{
+        height: 50%;
+        overflow: auto;
+    }
+    
+}
+@media screen and (max-height: 640px) {
+    .container .start_btn{
+        top: 60%;
+    }
+}
+@media screen and (max-width: 440px) {
+    .container .logo_main{
+        left: 60%;
+        width: 400px;
+    }
+    .container .game .next_btn{
+        left: 40%;
+    }
+    
+}
+@media screen and (max-height: 490px) {
+    .container .start_btn{
+        top: 70%;
+    }
 }
