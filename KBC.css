@@ -128,8 +128,6 @@ button{
     border-radius: 100vh;
     border: 2px solid #FFD700;
     font-size: 20px;
-    overflow-x: scroll;
-    overflow-y: scroll;
 }
 .container .game .questionnaire button{
     min-height: 50px;
