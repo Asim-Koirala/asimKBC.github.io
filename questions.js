@@ -9,6 +9,7 @@ let questions = [
             "Alexander The Great"
         ]
     },
+    
     {
         question: "How many places are there in the world named Paris?",
         answer : "48",
