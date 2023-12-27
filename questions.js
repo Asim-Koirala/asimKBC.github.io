@@ -1,154 +1,153 @@
-let cheesyPickupLines = [
+let questions = [
     {
-        question: "Are you a magician? Because whenever I look at you, everyone else disappears.",
-        answer: "Rishavi.",
+        question: "'Eureka! Eureka!' who coined this popular phrase?",
+        answer : "Archimedes",
         options: [
-            "Rishavi.",
-            "Totally magical, just like Rishavi!",
-            "Enchanting, right? Just like Rishavi.",
-            "Spellbound by Rishavi."
+            "Socrates",
+            "Archimedes",
+            "Aristotle",
+            "Alexander The Great"
         ]
     },
     
     {
-        question: "Do you have a map? I keep getting lost in your eyes.",
-        answer: "Rishavi.",
+        question: "How many places are there in the world named Paris?",
+        answer : "48",
         options: [
-            "Rishavi.",
-            "Eyes navigation fail! Lost in Rishavi's gaze!",
-            "Destination: Rishavi's eyes.",
-            "GPS not working here, but Rishavi is."
+            "1",
+            "28",
+            "36",
+            "48"
         ]
     },
     {
-        question: "Did it hurt when you fell from heaven?",
-        answer: "Rishavi.",
+        question: "Which is the tallest mountain in the Solar System?",
+        answer : "Mount Olympus Mons",
         options: [
-            "Rishavi.",
-            "Heavenly pain! Falling for Rishavi hurts.",
-            "Grounded without Rishavi.",
-            "Heavenly descent, guided by Rishavi."
+            "Mount Olympus Mons",
+            "Mount Everest",
+            "Mount Kirkpatrick",
+            "Mount Vinson Massif"
         ]
     },
     {
-        question: "Are you a Wi-Fi signal? Because I'm feeling a connection.",
-        answer: "Rishavi.",
+        question: "Who conducted the Stanford Prison Experiment?",
+        answer : "Philip Zimbardo",
         options: [
-            "Rishavi.",
-            "Full bars of connection with Rishavi!",
-            "Connected hearts, thanks to Rishavi.",
-            "Wi-Fi love vibes from Rishavi!"
+            "Robert Trivers",
+            "Daniel Kahneman",
+            "Philip Zimbardo",
+            "Robert Sternberg"
         ]
     },
     {
-        question: "Is your name Google? Because you have everything I've been searching for.",
-        answer: "Rishavi.",
+        question: "Which of the following is the oldest version of Android?",
+        answer : "Honeycomb",
         options: [
-            "Rishavi.",
-            "Google can't compete with Rishavi!",
-            "You're my search result, Rishavi.",
-            "Search complete with Rishavi."
+            "Ice Cream Sandwich",
+            "Lollipop",
+            "Honeycomb",
+            "KitKat"
         ]
     },
     {
-        question: "If beauty were time, you'd be an eternity.",
-        answer: "Rishavi.",
+        question: "Which of the following years is not a leap year?",
+        answer : "2100",
         options: [
-            "Rishavi.",
-            "Timeless beauty, just like Rishavi!",
-            "You're my forever, Rishavi.",
-            "Endless charm with Rishavi."
+            "2088",
+            "2100",
+            "2084",
+            "2104"
         ]
     },
     {
-        question: "Okay so I need to confess. When's the best time to do it?",
-        answer: "Right now, just do it",
+        question: "When did India qualify to play FIFA world cup?",
+        answer : "1950 A.D.",
         options: [
-            "Right now, just do it",
-            "Right now, just do it",
-            "Right now, just do it",
-            "Right now, just do it"
+            "1960 A.D.",
+            "1955 A.D.",
+            "1952 A.D.",
+            "1950 A.D."
         ]
     },
     {
-        question: "Isn't it true love when someone develops a game for you ?",
-        answer: "It certainly is",
+        question: "  'Okay, Houston..., we've had a problem here'. Who said this line? ",
+        answer : "Jack Swigert",
         options: [
-            "It certainly is",
-            "It certainly is",
-            "It certainly is",
-            "It certainly is"
+            "Jack Swigert",
+            "James Irwin",
+            "Jim Lovell",
+            "Jack Lousma"
         ]
     },
     {
-        question: "So if i confess now whats the worst you can say?",
-        answer: "I like you too",
+        question: "Which is the deepest place on Earth?",
+        answer : "Mariana Trench",
         options: [
-            "Ew",
-            "I have a boyfriend",
-            "Do you even know my standards ?",
-            "I like you too"
+            "Tonga Trench",
+            "Kermadec Trench",
+            "Tonga Trench",
+            "Mariana Trench"
         ]
     },
     {
-        question: "Should we be serious in december ?",
-        answer: "It's a month of love, so no",
+        question: "What were the first words spoken on the moon?",
+        answer : "Contact Light.",
         options: [
-            "It's a month of love, so no",
-            "Yes",
-            "Yes",
-            "Yes"
+            "Contact Light.",
+            "One Small Step for a Man...",
+            "Houston, we've had a problem here.",
+            "Elementary, my dear Collins."
         ]
     },
     {
-        question: "Why don't you have a boyfriend ?",
-        answer: "cuz i was waiting for you my whole life",
+        question: "How many a, b and c can be found between 1 to 999?",
+        answer : "0",
         options: [
-            "cuz i was waiting for you my whole life",
-            "i need to focys on studies",
-            "i need to focus on studies",
-            "khoi"
+            "52",
+            "119",
+            "0",
+            "45"
         ]
     },
     {
-        question: "What is love ?",
-        answer: "Baby dont hurt me",
+        question: "What was the first game played on the moon?",
+        answer : "Golf",
         options: [
-            "Meow",
-            "Baby dont hurt me",
-            "Bhau Bhau",
-            "rrrrrrrrr"
+            "Golf",
+            "Rock-Paper-Scissors",
+            "Skipping",
+            "Marathon"
         ]
     },
     {
-        question: "Will you like to go on a date?",
-        answer: "Nope",
+        question: "When did Royal Massacre take place?",
+        answer : "2058 Jestha 19",
         options: [
-            "I dont want to",
-            "Ill go with egp instead",
-            "Tarun sir is better than you",
-            "Nope"
+            "2058 Jestha 18",
+            "2058 Jestha 19",
+            "2059 Jestha 18",
+            "2059 Jestha 19"
         ]
     },
     {
-        question: "Please ?",
-        answer: "No",
+        question: "Who won the FIFA world cup of 1986 A.D?",
+        answer : "Argentina",
         options: [
-            "Ew stop",
-            "My ass",
-            "No",
-            "I'd rather be single my whole life"
+            "Brazil",
+            "Italy",
+            "France",
+            "Argentina"
         ]
     },
     {
-        question: "Pleeeeeeeeeeaseeeeeeee?",
-        answer: "Okayyy alright then babe",
+        question: "Which is the most subscribed youtube channel at present?",
+        answer : "T-Series",
         options: [
-            "Let me just block you instead",
-            "YOu deserve better",
-            "bruhhhhhh",
-            "Okayyy alright then babe"
+            "PewDiePie",
+            "Cocomelon - Nursery Rhymes",
+            "Mr Beast",
+            "T-Series"
         ]
     },
-    // Add more questions as needed...
 ];
