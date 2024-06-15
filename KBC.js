@@ -29,15 +29,10 @@ wrong_audio.src = "wrong.mp3";
 timer_audio.src = "timer.mp3";
 crore_winner_audio.src = "1crore.mp3"
 
-// When start button is clicked
+//When start button is clicked
 start_btn.onclick = function playintro(e){
     logo.style.display = "none";
     start_btn.style.display="none";
-    introvid.style.display ="block";
-    introvid.play();
-    setTimeout(apb, 37000)
-    function apb(){
-        introvid.style.display ="none";
         game.style.display="block";
         logo.style.display="block";
         showQuestions(0);
@@ -45,7 +40,6 @@ start_btn.onclick = function playintro(e){
         counterTime(timeValue);
         clearInterval(harmonium);
         counterLine(widthValue);
-    }
 }
 // declaration of the question number
 var que_num = 0;

@@ -22,7 +22,7 @@ button{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(to right, #9500ff, #c778ff);
+    background: linear-gradient(90deg, #3498db, #8e44ad);
 }
 .container .logo_main{
     position: absolute;
@@ -74,11 +74,11 @@ button{
     top: 0;
     left: 0;
     display: none;
-    background: #6f00ff;
+    background: linear-gradient(90deg, #3498db, #8e44ad);
 }
 .container .game .money_tier{
     position: absolute;
-    right: 0px;
+    right: 15px;
     top: 0;
     height: 100vh;
 }
@@ -98,11 +98,12 @@ button{
     font-weight: bold;
     font-family: Cambria Math;
     border-radius: 100vh;
-    box-shadow: 2px 2px 4px 2px #FFD700;
+    /* box-shadow: 2px 2px 4px 2px #FFD700; */
 }
 .money_tier ul li:nth-child(5n + 1){
-    background: #4cd137;
-    box-shadow: 2px 2px 4px 2px #4cd137;
+    background: #1bc500;
+    color: white;
+    /* box-shadow: 2px 2px 4px 2px #4cd137; */
 }
 .container .game .questionnaire{
     position: absolute;
@@ -120,21 +121,23 @@ button{
 .container .game .questionnaire h1{
     grid-column-start: 1;
     grid-column-end: 3;
-    background: blue;
+    background: rgb(139, 139, 255);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     border-radius: 100vh;
     border: 2px solid #FFD700;
+    color: white;
     font-size: 20px;
 }
 .container .game .questionnaire button{
     min-height: 50px;
     max-height: auto;
-    background: blue;
+    background: rgb(98, 98, 255);
     font-size: 30px;
     border-radius: 100vh;
+    color: white;
     border: 2px solid #FFD700;
 }
 .container .game .questionnaire button.correct_ans{
